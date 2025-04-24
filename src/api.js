@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // change to your deployed URL later
+  baseURL: "https://job-tracker-backend-production.up.railway.app/api"
 });
 
 export default API;
